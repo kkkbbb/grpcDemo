@@ -1,0 +1,236 @@
+option java_multiple_files = true;
+option java_package = "caribou.tasks.service";
+//option java_outer_classname = "hellworld";
+//caribou.tasks.service.TasksApiService/ListTasks
+package caribou.tasks.service;
+
+service TasksApiService {
+  rpc ListTasks (dher) returns (dhes) {}
+}
+
+message dhdc {
+  optional string b = 1;
+}
+
+message dhdg{
+  optional string a = 1;
+}
+
+message dhfs {
+  optional dhdg b = 3;
+  optional string c = 4;
+}
+
+
+message dhfg {
+  optional int32 b = 1;
+}
+
+message dhdt{}
+
+message dher {
+  optional dhfs b = 1;
+  optional dhdc c = 12;
+  optional dhfg d = 13;
+  optional dhdt e = 14;
+  optional bool g = 5;
+
+}
+
+message dhdf {
+  optional string b = 2;
+  optional string c = 3;
+}
+
+message dhgd {
+  optional string b = 2;
+}
+
+message dhfv {
+  optional int32 b = 1;
+}
+
+message dhca {
+  optional int32 b = 1;
+  optional int32 c = 2;
+  optional int32 d = 3;
+}
+
+message dhcb {
+  optional int32 b = 1;
+  optional int32 c = 2;
+  optional int32 d = 3;
+  optional dhca e = 4;
+  optional int32 f = 5;
+  optional int32 g = 6;
+  optional int64 h = 7;
+  optional bool i = 8;
+  optional bool j = 9;
+}
+
+message dpqi {
+  optional fixed64  b = 1;
+  optional fixed64  c = 2;
+}
+
+message dhbp {
+  optional string  b = 1;
+  optional string  c = 2;
+  optional string  d = 3;
+  optional string  e = 4;
+  optional string  h = 5;
+  optional string  f = 6;
+  optional string  g = 7;
+  optional string  i = 8;
+}
+
+message dhcf {
+  optional string  b = 1;
+}
+
+message dhce {
+  optional double  b = 1;
+  optional double  c = 2;
+  optional string  d = 3;
+  optional int32  e = 4;
+  optional int32  f = 5;
+  optional dpqi  g = 6;
+  optional string  h = 7;
+  optional dhcf  j = 8;
+  optional dhbp  i = 9;
+}
+
+message dhbt {
+  optional dpqi  b = 1;
+}
+
+message dhbu {
+  optional string  b = 2;
+  optional dhbt  c = 3;
+}
+
+message dhbs {
+  optional string  b = 1;
+  optional string  d = 2;
+  repeated string c = 3;
+}
+
+message dhci {
+  optional string  b = 1;
+  optional int32  c = 2;
+  optional dhbu  d = 4;
+  optional dhbs  e = 5;
+}
+
+message dhde {}
+
+message dhcr {
+  optional dhcb  b = 1;
+}
+
+message dhcq {
+  optional dhcb  b = 1;
+  optional int32  c = 3;
+  optional bool  d = 4;
+  optional dhcb  e = 5;
+}
+
+message dhcj {
+  optional dhca  b = 1;
+  optional int32  c = 2;
+  optional bool  d = 3;
+}
+
+message ebbx {
+  repeated int32 a = 1;
+}
+
+message dhcx {
+  optional ebbx  b = 1;
+  optional int32  c = 2;
+  optional bool  d = 3;
+}
+
+message dhcp {
+  repeated int32  b = 1;
+  optional int32  c = 3;
+  optional int32  d = 4;
+}
+
+message dhda {
+  optional dhcp  b = 1;
+  repeated int32  c = 2;
+}
+
+message dhdb {
+  optional int32  b = 1;
+  optional int32  c = 2;
+  optional dhcr  d = 3;
+  optional dhcq  e = 4;
+  optional dhcj  f = 5;
+  optional dhcx  g = 6;
+  optional dhcp  h = 7;
+  optional dhda  i = 8;
+}
+
+message dhdd {
+  optional dhdb  b = 1;
+  optional dhdc  c = 2;
+  optional bool  d = 3;
+  optional bool  e = 4;
+}
+
+message dhbq {
+
+}
+
+message dheg{
+  optional int32  b = 1;
+  optional string  c = 2;
+}
+
+
+message dhbv {
+  optional dhcb  c = 2;
+}
+
+message dhfr {
+  optional dhdf b = 1;
+  optional dhgd c = 13;
+  optional dhfv d = 2;
+  optional string e = 3;
+  optional int64 f = 18;
+  optional int64 g = 11;
+  optional bool h = 8;
+  optional bool i = 10;
+  optional bool j = 21;
+  optional bool k = 22;
+  optional int64 l = 23;
+  optional dhcb m = 5;
+  optional dhcb n = 7;
+  optional dhce o = 6;
+  optional dhci p = 12;
+  optional int64 q = 14;
+  optional dhde r = 15;
+  optional dhdd s = 16;
+  optional dhbq t = 17;
+  optional dheg u = 25;
+  optional int64 v = 26;
+  optional dhbv x = 20;
+}
+
+message dhes {
+   repeated dhfr b = 1;
+   optional dhdt  c = 4;
+   optional uint64 d = 3 ;
+}
+
+message helloTest {
+  optional string a = 10;
+  optional string b = 12;
+  optional int32 de = 1;
+}
+
+message HelloReply {
+  optional string message = 1;
+}
